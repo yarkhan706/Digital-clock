@@ -18,9 +18,9 @@ function updateTime() {
   const min = now.getMinutes();
   const sec = now.getSeconds();
 
-  const timea = `${formatTime(hours)}:${formatTime(min)}:${formatTime(sec)}`;
+  const time = `${formatTime(hours)}:${formatTime(min)}:${formatTime(sec)}`;
 
-  document.querySelector(".time").textContent = timea;
+  document.querySelector(".time").textContent = time;
 }
 
 function formatTime(time) {
