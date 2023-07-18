@@ -4,6 +4,13 @@
     margin: 0;
     padding: 0;
 }
+
+
+*::selection{
+    color: #424530;
+    background-color: #FFEFCD;
+}
+
 body {
     font-family: sans-serif;
     min-height: 100vh;
